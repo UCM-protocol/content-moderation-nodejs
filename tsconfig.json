@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Specify your target ECMAScript version
+    "module": "CommonJS", // Specify the module system (CommonJS for Node.js)
+    "outDir": "./dist", // Specify the output directory for compiled files
+    "rootDir": "./src", // Specify the root directory of your TypeScript source files
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Enable ES module interoperability
+    "types": ["node"], // Include the 'node' type definitions
+    "typeRoots": ["./node_modules/@types", "./"] // Specify type definition roots
+  },
+  "include": ["src/**/*.ts"], // Specify the source files to include
+  "exclude": ["node_modules"] // Specify the directories/files to exclude from compilation
+}
