@@ -9,6 +9,7 @@ import {
   inputVerifyCID,
 } from "./src/smart-contract/smartcontract.js";
 
+import cors from "cors";
 const app = express();
 const port = 3000;
 
